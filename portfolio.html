@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Himanshu Singh</span></a>
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <button class="visit-btn">Visit Github</button>
+    </header>
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <img src="imagePortfolio.jpg" alt="" />
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Himanshu Singh</h1>
+            <span>Frontend Developer</span>
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">Download CV</div>
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Frontend Development</span>
+            <h3>Beginner</h3>
+            <p>
+              I looking to again knowledge in frontend development and taking it
+              as starting career in the development field, i'm upskilling my
+              understanding in the coding language like HTML, CSS, Javascript
+              and React
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+            <h3>Intermediate</h3>
+            <p>
+              I have a good hand in the HTML language, in which i work with
+              different element that help in SEO efficiency and have a
+              understanding of structure making for the better alignment of the
+              website.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-brands fa-css3"></i>
+            <span>CSS</span>
+            <h3>Intermediate</h3>
+            <p>
+              I use stylesheet for making the structure consistent over the all
+              browser, so there would not be any difference create due to the
+              default browser settings for html element and attribute.
+            </p>
+          </div>
+          <div class="grid-card">
+            <i class="fa-brands fa-js"></i>
+            <span>Javascript</span>
+            <h3>Intermediate</h3>
+            <p>
+              I'm developing and enhancing the understanding of the behaviour
+              provided by the js, and learning the shorthand method to make the
+              code shorter that take less time for interpretation and improve in
+              time complexity of the website.
+            </p>
+          </div>
+        </div>
+        <img src="imagePortfolio.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="taco.jpg" alt="" />
+          <h3>Taco website</h3>
+          <p>
+            Keep calm and crunch on a taco. Life's too short to say no to tacos.
+            Eat tacos, repeat mistakes. Tacos: Because you can't live on
+            guacamole alone. Tacos: The only drama I want in my life.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live-demo</div>
+            <div class="btn">Github repo</div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="ferbs.jpg" alt="" id="ferb" />
+          <h3>Ferb</h3>
+          <p>
+            Ferb Fletcher is a character in the Disney Channel animated series
+            Phineas and Ferb.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live-demo</div>
+            <div class="btn">Github repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="javascript.jpg" alt="" />
+          <h3>Javascript website</h3>
+          <p>
+            JavaScript is a versatile, dynamically typed programming language
+            used for interactive web applications, supporting both client-side
+            and server-side development, and integrating seamlessly with HTML,
+            CSS, and a rich standard library.
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live-demo</div>
+            <div class="btn">Github repo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact me</h2>
+        <div class="input">
+          <input type="text" placeholder="example@email.com" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#project">Project</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <p class="copyright">© All Rights Reserved | Himanshu Singh</p>
+    </footer>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
